@@ -1,0 +1,36 @@
+{
+  "status": "ranges_valid",
+  "errors": [],
+  "semantic": "not_evaluated",
+  "excerpt_count": 4,
+  "excerpts": [
+    {
+      "decision": "D1",
+      "source_id": "P8",
+      "start_line": 5,
+      "end_line": 6,
+      "text": "Label Smoothing During training, we employed label smoothing of value ϵls = 0 .1 [36]. This\nhurts perplexity, as the model learns to be more unsure, but improves accuracy and BLEU score."
+    },
+    {
+      "decision": "D2",
+      "source_id": "P8",
+      "start_line": 5,
+      "end_line": 5,
+      "text": "Label Smoothing During training, we employed label smoothing of value ϵls = 0 .1 [36]. This"
+    },
+    {
+      "decision": "D3",
+      "source_id": "P8",
+      "start_line": 5,
+      "end_line": 6,
+      "text": "Label Smoothing During training, we employed label smoothing of value ϵls = 0 .1 [36]. This\nhurts perplexity, as the model learns to be more unsure, but improves accuracy and BLEU score."
+    },
+    {
+      "decision": "D4",
+      "source_id": "P8",
+      "start_line": 1,
+      "end_line": 6,
+      "text": "Residual Dropout We apply dropout [33] to the output of each sub-layer, before it is added to the\nsub-layer input and normalized. In addition, we apply dropout to the sums of the embeddings and the\npositional encodings in both the encoder and decoder stacks. For the base model, we use a rate of\nPdrop = 0.1.\nLabel Smoothing During training, we employed label smoothing of value ϵls = 0 .1 [36]. This\nhurts perplexity, as the model learns to be more unsure, but improves accuracy and BLEU score."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "id": "P8",
+    "page": 8,
+    "text": "Residual Dropout We apply dropout [33] to the output of each sub-layer, before it is added to the\nsub-layer input and normalized. In addition, we apply dropout to the sums of the embeddings and the\npositional encodings in both the encoder and decoder stacks. For the base model, we use a rate of\nPdrop = 0.1.\nLabel Smoothing During training, we employed label smoothing of value ϵls = 0 .1 [36]. This\nhurts perplexity, as the model learns to be more unsure, but improves accuracy and BLEU score."
+  }
+]

@@ -1,0 +1,6 @@
+论文《Attention Is All You Need》(arXiv:1706.03762v7)阅读问题：困惑度更差但 BLEU 更好：标签平滑的评价方向。只依据给定证据；教学推导标为推导，未定义或未实测须说明。
+D1：逐字核对label smoothing的值及对perplexity、accuracy、BLEU的方向；是否存在逻辑矛盾？这三个指标是否同义？
+D2：论文给定页是否定义平滑分布？教学采用 q=(1-epsilon)onehot+epsilon/K，K=4、epsilon=0.1，写出分布和归一化总和；与只分给错误类的约定区别？
+D3：真实类为第1类，比较教学预测pA=[0.97,0.01,0.01,0.01]、pB=[0.925,0.025,0.025,0.025]的硬标签NLL、exp(NLL)、平滑交叉熵。两者argmax如何？
+D4：该算例能否证明BLEU必然提高？BLEU能否写成precision/recall或TP/FP/FN？论文regularization同时含哪些操作，因果外推有何边界？
+输出合法JSON对象，decisions数组依次D1-D4，每项含id、answer、evidence数组(每项source_id、start_line、end_line)、limitations。source_id仅允许['P8']。行号整数无前导零。每项完整回答，保留条件，约1600中文字。

@@ -1,0 +1,29 @@
+{
+  "teaching_only": true,
+  "target": [
+    0.925,
+    0.025,
+    0.025,
+    0.025
+  ],
+  "target_sum": 1.0,
+  "wrong_only_target": [
+    0.9,
+    0.03333333333333333,
+    0.03333333333333333,
+    0.03333333333333333
+  ],
+  "A": {
+    "hard_nll_nats": 0.030459207484708574,
+    "single_token_ppl": 1.0309278350515465,
+    "smooth_cross_entropy_nats": 0.3735625308724623,
+    "argmax_1based": 1
+  },
+  "B": {
+    "hard_nll_nats": 0.0779615414697118,
+    "single_token_ppl": 1.081081081081081,
+    "smooth_cross_entropy_nats": 0.34878038491802865,
+    "argmax_1based": 1
+  },
+  "BLEU": "not computed; no translation sequence or reference"
+}

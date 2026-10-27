@@ -1,0 +1,39 @@
+{
+  "condition": "single_real_call",
+  "started_at": "2026-10-27T07:39:21.492596+00:00",
+  "request_sha256": "8def45dcaaa0a930bb2d26ce4060be6ac0573bd6a06b9b5910c2ed3257b3d34c",
+  "history": false,
+  "tools": false,
+  "timeout_seconds": 180,
+  "status": "completed",
+  "model": "chenkun/gpt-5-mini",
+  "usage": {
+    "completion_tokens": 5431,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2176,
+      "rejected_prediction_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 7,
+      "engine_ttft_ms": 38,
+      "engine_ttlt_ms": 39170,
+      "pre_inference_ms": 87,
+      "service_tbt_ms": 7,
+      "service_ttft_ms": 222,
+      "service_ttlt_ms": 39348,
+      "user_visible_ttft_ms": 135
+    },
+    "prompt_tokens": 542,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 5973
+  },
+  "completion_id": "chatcmpl-EdW4ARQjQDxIWrJa3RVgBAKkpH3V5",
+  "seconds": 41.448,
+  "cost": null,
+  "cost_reason": "Service gives no per-request monetary debit"
+}
